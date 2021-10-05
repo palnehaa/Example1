@@ -4,9 +4,12 @@
 int a=5;
 int b=6;
 int c=a+b;
-cout>> c;
+cout<< c;
 
 //To check if it is positive
 
 if(c>0)
-cout>>" Positive";
+cout<<" Positive";
+
+if(c<0)
+cout<<"Negative";
